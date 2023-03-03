@@ -10,11 +10,11 @@ queue.async {
     asyncBlock(id: 2)
 }
 
-let dispatchWorkItem = DispatchWorkItem(qos: .default, flags: .barrier) {
+let dispatchWorkItem = DispatchWorkItem(flags: .barrier) {
     asyncBlock(id: 3)
 }
 
-let dispatchWorkItem2 = DispatchWorkItem(qos: .default, flags: .barrier) {
+let dispatchWorkItem2 = DispatchWorkItem(flags: .barrier) {
     asyncBlock(id: 4)
 }
 
