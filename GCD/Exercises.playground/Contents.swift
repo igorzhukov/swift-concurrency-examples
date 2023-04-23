@@ -3,6 +3,7 @@ import UIKit
 // MARK: 1
 /// What is the printed result of the following code?
 /// 2/
+print("=========================")
 let queue = DispatchQueue (label: "queue")
 queue.async {
     print("1")
@@ -16,6 +17,8 @@ queue.async {
         }
     }
 }
+
+
 
 /*
 1/ 1, 2, 3, 4
