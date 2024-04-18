@@ -19,7 +19,7 @@ let dispatchWorkItem2 = DispatchWorkItem(flags: .barrier) {
 }
 
 queue.async(execute: dispatchWorkItem)
-queue.async(execute: dispatchWorkItem)
+queue.async(execute: dispatchWorkItem2)
 
 func asyncBlock(id: Int) {
     print("#\(id) async block START")

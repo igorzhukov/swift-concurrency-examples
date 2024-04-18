@@ -34,3 +34,8 @@ func asyncBlock(id: Int) {
     Thread.sleep(forTimeInterval: 2)
     print("#\(id) async block END" + " \(Date())")
 }
+
+
+class CustomOperation: Operation {
+    
+}
